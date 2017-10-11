@@ -1,0 +1,127 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <style>
+             body{
+                    font-family: Garamond;
+            }
+            div#menu_bar{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+            }
+            div#contact_container{
+                margin-top: 50px;
+            }
+
+            div#contact_container div{
+                width: 700px ;
+                margin-left: auto ;
+                margin-right: auto ;
+            }
+            div#Name {
+                margin-bottom: 40px;
+            }
+            div#Email {
+                margin-bottom: 40px;
+            }
+            div#Phone {
+                margin-bottom: 40px;
+            }
+            div#Reason4Inquiry {
+                margin-bottom: 45px;
+            }
+            div#AdditionalInfo {
+                margin-bottom: 45px;
+            }
+            div#PreviousVisitor {
+                margin-bottom: 45px;
+            }
+            div#DayToContact {
+                margin-bottom: 45px;
+            }
+            div#SubmitButton {
+                float: right;
+                margin-bottom: 200px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; font-family: Garamond;">Dave's Italian Restaurant</h1>
+        <div id="menu_bar">
+                            <a href="restaurant.html">Home</a>
+                            <a href="restaurant_menu.html">Menu</a>
+                            <a href="restaurant_contact.html">Contact Us</a>           
+        </div>
+        <div id="contact_container">
+        <form action="#" method="post">
+            <div id="Name"> 
+                <label id="NameLabel" for="Name">Name: </label>
+                <input id="Name" name="Name" type="text" />
+            </div>
+            <div id="Email">
+                <label id="EmailLabel" for="Email">Email: </label>
+                <input id="Email" name="Email" type="text" />
+            </div>
+            <div id="Phone"> 
+                <label id="PhoneLabel" for="Phone">Phone: </label>
+                <input id="Phone" name="Phone" type="text" />
+            </div>
+            <div id="Reason4Inquiry">   
+                Reason for Inquiry:
+                <select id="Reason_For_Inquiry"  name="Reason_For_Inquiry"   onchange = "">  
+                    <option selected="selected"> Catering </option>
+                    <option> Private Party </option>
+                    <option> Feedback </option>
+                    <option> Other </option>
+                </select>
+                <br />
+                </div>
+            <div id="AdditionalInfo">
+                <label id="MessageLabel" for="Message">Additional Information: </label>
+                <textarea id="Message1" name="Message1"> </textarea>
+            </div>
+            <div id="PreviousVisitor"> 
+                Have you been to the restaurant?
+                <label for="No">No</label>
+                    <input type="radio" name="Visitor" id="No" value="" checked="checked">
+                <label for="Yes">Yes</label>
+                    <input type="radio" name="Visitor" id="Yes" value="">
+                    <br />
+                </div>
+            <div id="DayToContact">
+                Best day to contact you:
+                    <label for="Monday"> 
+                        <input type="checkbox" id="Monday" value="" /> M
+                    </label>
+                    <label for="Tuesday">
+                        <input type="checkbox" id="Tuesday" value="" /> T
+                    </label>
+                    <label for="Wednesday">
+                        <input type="checkbox" id="Wednesday" value="" /> W
+                    </label>
+                    <label for="Thursday">
+                        <input type="checkbox" id="Thursday" value="" /> Th
+                    </label>
+                    <label for="Friday">
+                        <input type="checkbox" id="Friday" value="" /> F
+                    </label>
+            </div>
+            <div id="SubmitButton">
+                <input type="submit" id="SubmitButtom" value="Send Request" style="float: center;"/>
+            </div>
+            </div> <!-- End of contact_container -->
+            <div id="restaurant_address" style="border-top: 2px solid black; clear: both;">
+                <center><p>
+                        5555 Fake Street, Saint Paul, Minnesota, 55106
+                        <br>555-555-5555</br>
+                        </p></center>  
+            </div>
+            </form>
+    </body>
+</html>
