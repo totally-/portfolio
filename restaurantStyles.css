@@ -1,0 +1,12 @@
+head {
+    font-family: Garamond;
+}
+
+footer#restaurant_address{
+    
+    border-top: 2px solid black;
+    margin: center;
+    text-align: center;
+    clear: both;
+    position: relative; 
+}
