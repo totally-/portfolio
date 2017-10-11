@@ -1,0 +1,13 @@
+html{
+    background-color: black;
+    color: yellow;
+}
+
+table tr th {
+    border: 2px solid yellow;
+}
+
+table tr td {
+    border: 2px solid yellow;
+    background-color: red;
+}
